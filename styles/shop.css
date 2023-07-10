@@ -37,3 +37,13 @@ gap: 10px;
 border-radius: 8px;
 background: #E55473;
 }
+.second-part{
+width: 100vw;
+height: 100%;
+}
+.picturs{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
