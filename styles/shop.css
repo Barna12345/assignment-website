@@ -34,16 +34,61 @@ font-family: Lato;
 padding: 15px 30px;
 align-items: flex-start;
 gap: 10px;
+border: 0px;
 border-radius: 8px;
 background: #E55473;
 }
 .second-part{
 width: 100vw;
 height: 100%;
+
 }
 .picturs{
     
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    height: 200px;
+    align-items: center;
+
+    margin: 80px 80px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.hot-deal{
+    width: 100vw;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+background: rgba(229, 84, 115, 0.05);
+justify-content: space-around;
+align-items: center;
+
+}
+.right-side{
+    width: 200px;
+height: 300px;
+margin: 25px 25px;
+}
+.left-side{
+    color: #272727;
+font-family: Lato;
+font-size: 25px;
+font-style: normal
+}
+.span{
+    color: #E55473;
+}
+.sign{
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #E55473;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    justify-content: center;
+    margin-left: 120px;
+}
+.pera{
+    font-size: 17px;
+    font-family: normal;
 }
