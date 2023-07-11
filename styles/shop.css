@@ -21,11 +21,11 @@
     margin-bottom: 0px;
     flex-shrink: 0;
    
-   padding-left: 260px;
+   padding-left: 230px;
   
 }
 .banner-text{
-    padding-left: 190px;
+    padding-left: 100px;
     
      
 }
@@ -118,11 +118,12 @@ font-style: normal
 }
 .four-photo{
     align-items: center;
-    justify-content: space-around;
+  
     display: flex;
     margin-left: 50px;
-    gap: 5px;
-    padding: 80px 80px;
+    gap:10px;
+margin-left: 200px;
+margin-top: 40px;
 
 }
 .details{
@@ -141,6 +142,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+padding-top: 20px;
 }
 .pera-two{
     width: 100%;
@@ -148,7 +150,7 @@ line-height: normal;
 width: 594px;
 flex-direction: column;
 align-items: center;
-padding-left: 450px;
+padding-left: 430px;
 }
 
 .back-photo{
@@ -169,7 +171,7 @@ padding-left: 450px;
 .deals{
     align-items: center;
     margin: 130px 30px 30px 30px;
-    padding-left: 240px;
+    padding-left: 230px;
     padding-top: 30px;
     color: #272727;
 font-family: Lato;
@@ -207,7 +209,7 @@ line-height: normal;
 }
 .fshop{
     align-items: center;
-    padding-left: 600px;
+    padding-left: 550px;
     padding-top: 50px;
     color: white;
     font-family: lato;
@@ -218,13 +220,88 @@ line-height: normal;
     color: white;
     font-family: normal;
     font-size: 12px;
-    padding-left: 570px;
+    padding-left: 560px;
 }
 .copy{
     color: white;
     font-size: 12px;
-    padding-left: 590px;
+    padding-left: 580px;
     padding-top: 8px;
 color: rgba(255, 255, 255, 0.40);
 }
+.extra{
+    height: 50%;
+    width: 100vw;
+}
+.img{
+    height: 300px;
+    width: 250px;
+    display: flex;
 
+}
+.extra-photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+.buy{
+    align-items: center;
+    font-size: 40px;
+    padding-left: 600px;
+    padding-top: 0px;
+
+}
+
+.bonus{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ 
+    gap: 10px;
+  justify-content: space-around;
+
+}
+.box1{
+    width: 280px;
+height: 300px;
+flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+    
+}
+.image{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 2pxpx;
+    align-items: center;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+
+
+.tree{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
